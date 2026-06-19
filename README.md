@@ -6,8 +6,10 @@
 
 ```
 Python_Learn/
-├── README.md        # 本文件
-└── test.py          # 基础示例代码
+├── README.md                      # 本文件
+├── test.py                        # 基础示例代码
+└── Python_basics/                 # 基础语法学习
+    └── variable_string.ipynb      # 变量与字符串
 ```
 
 ## 学习内容
@@ -31,8 +33,14 @@ Python_Learn/
 
 ## 运行方式
 
+### Python 脚本
 ```bash
 python3 test.py
+```
+
+### Jupyter Notebook
+```bash
+jupyter notebook Python_basics/variable_string.ipynb
 ```
 
 ## 环境
