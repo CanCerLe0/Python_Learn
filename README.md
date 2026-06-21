@@ -6,42 +6,58 @@
 
 ```
 Python_Learn/
-├── README.md                      # 本文件
-├── test.py                        # 基础示例代码
-└── Python_basics/                 # 基础语法学习
-    └── variable_string.ipynb      # 变量与字符串
+├── README.md
+├── test.py
+└── Python_basics/
+    ├── branch.py
+    ├── game.py
+    ├── gameplus.py
+    ├── gamepro.py
+    ├── loop.py
+    ├── operator.ipynb
+    ├── random.ipynb
+    ├── variable_string.ipynb
+    └── operator_example/
+        ├── circle.py
+        ├── common_leep_year.py
+        └── tempchange.py
 ```
 
 ## 学习内容
 
-### 基础语法
-- 变量与数据类型
-- 字符串格式化（f-string）
-- 条件判断（if/elif/else）
-- 循环（for/while）
+### 变量与字符串
+- 变量赋值与数据类型
+- 字符串操作与格式化（f-string）
+- Notebook: `variable_string.ipynb`
 
-### 数据结构
-- 列表（list）
-- 字典（dict）
-- 元组（tuple）
-- 集合（set）
+### 运算符
+- 算术运算符、比较运算符、逻辑运算符
+- 运算符优先级
+- Notebook: `operator.ipynb`
+- 练习示例: `operator_example/`
+  - `circle.py` - 圆形面积计算
+  - `common_leep_year.py` - 闰年判断
+  - `tempchange.py` - 温度转换
 
-### 函数
-- 函数定义与调用
-- 类型提示（Type Hints）
-- 参数与返回值
+### 条件分支
+- if/elif/else 语句
+- 嵌套条件
+- 代码: `branch.py`
 
-## 运行方式
+### 循环
+- for 循环与 while 循环
+- break 与 continue
+- 代码: `loop.py`
 
-### Python 脚本
-```bash
-python3 test.py
-```
+### 随机数
+- random 模块
+- Notebook: `random.ipynb`
 
-### Jupyter Notebook
-```bash
-jupyter notebook Python_basics/variable_string.ipynb
-```
+### 综合练习
+- 猜数字游戏
+  - `game.py` - 基础版
+  - `gameplus.py` - 进阶版
+  - `gamepro.py` - 专业版
 
 ## 环境
 
